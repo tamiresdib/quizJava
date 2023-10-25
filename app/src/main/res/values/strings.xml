@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QuizAppp</string>
+    <string name="enterName">Escreva o seu nome!</string>
+    <string name="subText">Um jogo de perguntas de países</string>
+</resources>
