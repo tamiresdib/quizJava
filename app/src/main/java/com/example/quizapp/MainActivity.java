@@ -8,7 +8,6 @@ public class MainActivity extends AppCompatActivity {
 
     TextView totalQuestionsTextView;
     TextView questionsTextView;
-
     Button resA;
     Button resB;
     Button resC;

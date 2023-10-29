@@ -5,17 +5,86 @@
     android:id="@+id/enterName"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2196F3"
+    android:background="@drawable/img"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:src="@drawable/img"
-        app:layout_constraintStart_toStartOf="parent"
+    <View
+        android:id="@+id/containerComponents"
+        style="@style/ContainerComponentes"
+        android:layout_width="366dp"
+        android:layout_height="222dp"
+        app:layout_constraintBaseline_toBottomOf="@id/logo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
- 
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="234dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="132dp"
+        android:src="@drawable/mundo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/container"
+        style="@style/ContainerComponentes"
+        android:layout_width="335dp"
+        android:layout_height="387dp"
+        android:alpha="0.7"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qual o país destacado abaixo?"
+        android:textColor="@color/brown"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="293dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/brown"
+        android:text="Indonésia"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="293dp"
+        android:layout_height="50dp"
+        android:text="Austrália"
+        android:backgroundTint="@color/brown"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="293dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/brown"
+        android:text="Nova Zelândia"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="502dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="293dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/brown"
+        android:text="Cazaquistão"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="568dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
