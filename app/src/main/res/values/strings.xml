@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="teste">teste</string>
+    <string name="nova_partida">Nova partida</string>
+    <string name="usu_rio">Usuário</string>
+    <string name="highscore">Highscore</string>
+    <string name="icone">Icone</string>
+    <string name="image">Image</string>
+    <string name="image1">Image1</string>
+</resources>
