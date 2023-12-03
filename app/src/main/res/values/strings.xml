@@ -7,4 +7,25 @@
     <string name="icone">Icone</string>
     <string name="image">Image</string>
     <string name="image1">Image1</string>
+    <string name="back">Back</string>
+    <string name="shadowbutton">shadowbutton</string>
+    <string name="geo">Geo</string>
+    <string name="quiz">Quiz</string>
+    <string name="button">button</string>
+    <string name="img">Img</string>
+    <string name="img1">Img1</string>
+    <string name="img2">Img2</string>
+    <string name="voltar">Voltar</string>
+    <string name="score_final">Score final</string>
+    <string name="_100">100</string>
+    <string name="parab_ns">Parabéns!</string>
+    <string name="voltar1">Voltar</string>
+    <string name="img5">Img5</string>
+    <string name="mais_sorte_na_pr_xima">Mais sorte na próxima...</string>
+    <string name="_10">10</string>
+    <string name="score_final1">Score final</string>
+    <string name="img7">Img7</string>
+    <string name="insira_seu_nome">Insira seu nome:</string>
+    <string name="ir">Ir</string>
+    <string name="nome">nome</string>
 </resources>

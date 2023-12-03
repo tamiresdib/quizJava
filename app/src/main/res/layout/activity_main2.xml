@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mapavintage"
+    tools:context=".MainActivity2">
+
+    <View
+        android:id="@+id/containershadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/image1"
+        app:layout_constraintStart_toStartOf="@+id/containershadow"
+        app:layout_constraintTop_toTopOf="@id/containershadow"
+        app:srcCompat="@drawable/rectangle" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="77dp"
+        android:contentDescription="@string/image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/frame" />
+
+    <View
+        android:id="@+id/containeruser"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/container_user"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:contentDescription="@string/icone"
+        android:src="@drawable/icone_pessoa"
+        app:layout_constraintBottom_toBottomOf="@id/containeruser"
+        app:layout_constraintEnd_toEndOf="@id/containeruser"
+        app:layout_constraintStart_toStartOf="@id/containeruser"
+        app:layout_constraintTop_toTopOf="@id/containeruser" />
+
+    <TextView
+        android:id="@+id/text_nome_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:fontFamily="@font/inknut_antiqua"
+        android:text="@string/usu_rio"
+        android:textColor="@color/X"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="@id/containeruser"
+        app:layout_constraintStart_toStartOf="@id/containeruser"
+        app:layout_constraintTop_toBottomOf="@id/containeruser" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="238dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="@color/XXX"
+        android:clickable="true"
+        android:fontFamily="@font/inknut_antiqua"
+        android:freezesText="false"
+        android:onClick="abrirTelaPartida"
+        android:text="@string/nova_partida"
+        android:textColor="@color/X"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="161dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="237dp"
+        android:backgroundTint="@color/XXX"
+        android:clickable="true"
+        android:fontFamily="@font/inknut_antiqua"
+        android:onClick="abrirTelaHighscore"
+        android:text="@string/highscore"
+        android:textAlignment="center"
+        android:textColor="@color/X"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
